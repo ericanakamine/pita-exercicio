@@ -1,41 +1,74 @@
-/* Add a white background color to the top navigation */
-.topnav {
-    background-color: white;
-  }
 
-  header nav a {
+ .header-nav a {
     
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Helvetica, sans-serif;
       font-size: 11.5px;
       color: black;
       text-decoration: none;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: .15em;
 
   }
   header {
       padding-right: 75px;
       padding-left: 75px;
       padding-top: 27px;
-      padding-right: 27px;
+      padding-bottom: 27px;
 
   }
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+  .nav-a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
+
+  .body-text {
+    font-family: helvetica;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    text-transform: none;
     color: black;
   }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: white;
-    color: darkgrey;
+  .coluna-texto {
+    padding-bottom: 110px;
+    padding-top: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+
+  }
+
+  p {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .galeria {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 110px;
+    padding-top: 110px;
+    box-sizing: border-box;
+  }
+
+  .galeria a {
+   
+  }
+
+  .galeria a img {
+    width: 100%;
+  }
+
+  .cx-legenda {
+    padding: 1.25rem;
+  }
+
+  .subtitle25 {
+    font-size: 25px;
+    font-weight: 700;
   }
